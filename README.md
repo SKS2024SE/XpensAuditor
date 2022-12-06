@@ -14,7 +14,7 @@ a smart way to track your expenses
 
 #
 
- ## Summary
+ ## Project1 Features
  
  - This mobile application allows customers to add their expenses and keep track of them. 
  - Takes required minimal amount of data like date of transaction, product name and value

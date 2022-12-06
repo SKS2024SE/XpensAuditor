@@ -13,7 +13,7 @@
 |Other automated analysis tools |3| Yes pipeline exists ->reference here (https://github.com/AtharvaGole/XpensAuditor/blob/main/.github/workflows/android.yml )|
 |Workload is spread over the whole team (one team member is often Xtimes more productive than the others... |3|Yes  reference here( https://github.com/AtharvaGole/XpensAuditor/graphs/contributors) |
 |but nevertheless, here is a track record that everyone is contributing a lot)||evidence in GH|
-|Number of commits|https://github.com/AtharvaGole/XpensAuditor/graphs/contributors|  |
+|Number of commits|3|https://github.com/AtharvaGole/XpensAuditor/graphs/contributors|  |
 |Number of commits: by different people|3| https://github.com/AtharvaGole/XpensAuditor/graphs/contributors|
 |Issues reports: there are **many**|3|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
 |Issues are being closed|3|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
@@ -23,8 +23,8 @@
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||Readme is written with all explanations -> reference (https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
 |Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3|Animated video with demo (https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
 |Use of version control tools|3|Project clearly hosted on Github|
-|Test cases exist|3| |
-|Test cases are routinely executed|3| |
+|Test cases exist|3| Check build|
+|Test cases are routinely executed|3| Check build|
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3|->reference here(https://github.com/AtharvaGole/XpensAuditor/blob/main/CONTRIBUTING.md)|
 |Issues are discussed before they are closed|2|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
 |Chat channel: exists|3|whatssap chat |
@@ -33,9 +33,8 @@
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3|Yes we can reference everyone as contributor in app folder|
 |Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3|Yes|
 |Evidence that the members of the team are working across multiple places in the code base|3|Yes we can reference  commits on different files|
-|Short release cycles |3| Yes, it is a short release cycle reference here()|
-
-|Does your website and documentation provide a clear, high-level overview of your software?|3|  [here]( https://github.com/AtharvaGole/XpensAuditor)   |
+|Short release cycles |3| Check readme|
+|Does your website and documentation provide a clear, high-level overview of your software?|3|  [here]( https://github.com/AtharvaGole/XpensAuditor)|
 |Does your website and documentation clearly describe the type of user who should use your software?|3|  [here]( https://github.com/AtharvaGole/XpensAuditor)                              |
 |Do you publish case studies to show how your software has been used by yourself and others?|N/A||
 |Is the name of your project/software unique?|5| Yes                                                                       |

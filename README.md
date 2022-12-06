@@ -64,7 +64,7 @@ You can see a list of the paid plans at Firebase below - https://firebase.google
 
 ## Run the application
 ### Android Mobile
- - Download the apk from the latest [release](https://github.com/AtharvaGole/XpensAuditor/releases/tag/v1.0.0) 
+ - Download the latest [release](https://github.com/AtharvaGole/XpensAuditor/releases/tag/Release-3) 
  
 ### Android Studio
  - Must have android studio installed

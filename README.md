@@ -2,7 +2,7 @@
 a smart way to track your expenses
 
 [![Code Coverage](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main/graphs/badge.svg)](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main)
-[![DOI](https://zenodo.org/badge/543328644.svg)](https://zenodo.org/badge/latestdoi/543328644)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7402784.svg)](https://doi.org/10.5281/zenodo.7402784)
 [![Collaborators](https://img.shields.io/badge/Collaborators-10-orange.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/graphs/contributors)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/blob/main/LICENSE)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/search?l=java)
@@ -14,7 +14,7 @@ a smart way to track your expenses
 
 #
 
- ## Summary
+ ## Project1 Features
  
  - This mobile application allows customers to add their expenses and keep track of them. 
  - Takes required minimal amount of data like date of transaction, product name and value
@@ -49,13 +49,13 @@ a smart way to track your expenses
 <img width="968" alt="Note Dec 5, 2022 png" src="https://user-images.githubusercontent.com/44353511/205783646-0a733c40-00b9-46a8-ab2c-9285e138088d.png">
 
 ## Scalability
-Currently the application stores User and Group data on Firebase Real-Time Database. Every smartphone with the app running needs to establish a connection to the database in order to sync data with the cloud. The app will run even without an internet connection, but in order to view the latest transactions of a group, you will need to query data from the database. The free version of Firebase Real-Time Database can support up to 100 concurrent connections, but this can easily be scaled up if we choose to go for a paid subscription from Firebase. The number of concurrent users in a Group can be scaled up to 200,000 per database easily without any impact on the performance of the app. 
+Currently the application stores User and Group data on Firebase Real-Time Database. Every smartphone with the app running needs to establish a connection to the database in order to sync data with the cloud. The app will run even without an internet connection, but in order to view the latest transactions of a group, you will need to query data from the database. The free version of Firebase Real-Time Database can support up to 100 concurrent connections, but this can easily be scaled up if we choose to go for a paid subscription from Firebase. The number of concurrent users can be scaled up to 200,000 per database easily without any impact on the performance of the app. This will help us in supporting more users in a group. The data storage limit for the paid version is also higher. The Push Notification system is also scalable.
 
 You can see a list of the paid plans at Firebase below - https://firebase.google.com/pricing?authuser=3&hl=en 
 
 ## License
 
- This project is licensed under the MIT License. See the [LICENSE](https://github.com/SaiPavanYalla/XpensAuditor/blob/main/LICENSE) file for details
+ This project is licensed under the MIT License. See the [LICENSE](https://github.com/AtharvaGole/XpensAuditor/blob/main/LICENSE) file for details
  
 ## Tools used
 
@@ -64,7 +64,7 @@ You can see a list of the paid plans at Firebase below - https://firebase.google
 
 ## Run the application
 ### Android Mobile
- - Download the apk from the latest [release](https://github.com/AtharvaGole/XpensAuditor/releases/tag/v1.0.0) 
+ - Download the latest [release](https://github.com/AtharvaGole/XpensAuditor/releases/tag/Release-3) 
  
 ### Android Studio
  - Must have android studio installed

@@ -1,32 +1,32 @@
 ### Rubric:
 
-| Area                                                                                                                                                | Assessment | Evidence                                                                                                                          |
+| Area| Assessment | Evidence|
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|Video1||https://user-images.githubusercontent.com/112219214/194787499-0125447e-f68d-444b-9a86-559b14adf898.mp4|
-|Video2||Check in readme|
-|Bonus: Xfold improvement| |Check in readme|
+|Video1|3|[here](https://user-images.githubusercontent.com/112219214/194787499-0125447e-f68d-444b-9a86-559b14adf898.mp4)|
+|Video2|3|Check in readme|
+|Bonus: Xfold improvement|3|Check in readme|
 |Docs: what: point descriptions of each class/function (in isolation) |2|Some classes have comments some don’t|
 |Use of style checkers |3|Not used, entire coding is done in Android Studio |
 |Use of code formatters.| 3| Not used, entire coding is done in Android Studio |
 |Use of syntax checkers.| 3| Not used, entire coding is done in Android Studio |
 |Use of code coverage|3 |config files in GH|
-|Other automated analysis tools |3| Yes pipeline exists ->reference here (https://github.com/AtharvaGole/XpensAuditor/blob/main/.github/workflows/android.yml )|
-|Workload is spread over the whole team (one team member is often Xtimes more productive than the others... |3|Yes  reference here( https://github.com/AtharvaGole/XpensAuditor/graphs/contributors) |
+|Other automated analysis tools |3| Yes pipeline exists ->reference [here](https://github.com/AtharvaGole/XpensAuditor/blob/main/.github/workflows/android.yml )|
+|Workload is spread over the whole team (one team member is often Xtimes more productive than the others... |3|Yes  reference [here]( https://github.com/AtharvaGole/XpensAuditor/graphs/contributors) |
 |but nevertheless, here is a track record that everyone is contributing a lot)||evidence in GH|
-|Number of commits|3|https://github.com/AtharvaGole/XpensAuditor/graphs/contributors|  |
-|Number of commits: by different people|3| https://github.com/AtharvaGole/XpensAuditor/graphs/contributors|
-|Issues reports: there are **many**|3|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
-|Issues are being closed|3|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
-|DOI badge: exists|3|Yes DOI badge exists README.md (https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
-|Docs: doco generated, format not ugly| 3|Docs generated reference here(https://github.com/AtharvaGole/XpensAuditor/tree/main/docs )|
+|Number of commits|3|[here](https://github.com/AtharvaGole/XpensAuditor/graphs/contributors)|  |
+|Number of commits: by different people|3| [here](https://github.com/AtharvaGole/XpensAuditor/graphs/contributors)|
+|Issues reports: there are **many**|3| Reference [here](https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559)|
+|Issues are being closed|3| Reference [here](https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559)|
+|DOI badge: exists|3|Yes DOI badge exists README.md [here](https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
+|Docs: doco generated, format not ugly| 3|Docs generated reference [here](https://github.com/AtharvaGole/XpensAuditor/tree/main/docs )|
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z|3|Test cases exist and explained in the video|
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||Readme is written with all explanations -> reference (https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3|Animated video with demo (https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||Readme is written with all explanations -> reference [here](https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
+|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3|Animated video with demo [here](https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)|
 |Use of version control tools|3|Project clearly hosted on Github|
 |Test cases exist|3| Check build|
 |Test cases are routinely executed|3| Check build|
-|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3|->reference here(https://github.com/AtharvaGole/XpensAuditor/blob/main/CONTRIBUTING.md)|
-|Issues are discussed before they are closed|2|https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559|
+|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3|->reference [here](https://github.com/AtharvaGole/XpensAuditor/blob/main/CONTRIBUTING.md)|
+|Issues are discussed before they are closed|2|Reference [here](https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7382504559)|
 |Chat channel: exists|3|whatssap chat |
 |Test cases: a large proportion of the issues related to handling failing cases.|2|Yes|
 |Evidence that the whole team is using the same tools: everyone can get to all tools and files|3| Yes we can reference everyone as contributor in app folder |
@@ -70,16 +70,16 @@
 |Is there a branch of the repository that is always stable?|3| Yes. main is always stable                                                |
 |Do you back-up your repository?|3| Local backups                                                             |
 |Do you provide publicly-available instructions for building your software from the source code?|3| Yes  [here]( https://github.com/AtharvaGole/XpensAuditor)                             |
-|Can you build, or package, your software using an automated tool?|3| Yes [here](https://github.com/vishalsh94/trackaday/actions)                      |
+|Can you build, or package, your software using an automated tool?|3| Yes [here](https://github.com/AtharvaGole/XpensAuditor/search?q=actions)                      |
 |Do you provide publicly-available instructions for deploying your software?|3| Yes                                                                       |
 |Does your documentation list all third-party dependencies?|3| Yes  [here]( https://github.com/AtharvaGole/XpensAuditor)  |
 |Does your documentation list the version number for all third-party dependencies?|3| Yes [here]( https://github.com/AtharvaGole/XpensAuditor)     |
 |Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional?|3| Yes   [here]( https://github.com/AtharvaGole/XpensAuditor)     |
 |Can you download dependencies using a dependency management tool or package manager?|3| Yes                                                                       |
-|Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful?|3| Yes  [here](https://github.com/vishalsh94/trackaday/actions )                        |   |
-|Do you have an automated test suite for your software?|3| Yes [here](https://github.com/vishalsh94/trackaday/actions )                        |
-|Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|3| Yes  [here](https://github.com/vishalsh94/trackaday/actions)                         |
-|Do you use continuous integration, automatically running tests whenever changes are made to your source code?|3| Yes  [here](https://github.com/vishalsh94/trackaday/actions)                       |
+|Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful?|3| Yes  [here](https://github.com/AtharvaGole/XpensAuditor/search?q=actions)                        |   |
+|Do you have an automated test suite for your software?|3| Yes [here]([https://github.com/vishalsh94/trackaday/actions](https://github.com/AtharvaGole/XpensAuditor/search?q=actions) )                        |
+|Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|3| Yes  [here](https://github.com/AtharvaGole/XpensAuditor/search?q=actions)                         |
+|Do you use continuous integration, automatically running tests whenever changes are made to your source code?|3| Yes  [here](https://github.com/AtharvaGole/XpensAuditor/search?q=actions)                       |
 |Are your test results publicly visible?|3|                                                                           |
 |Are all manually-run tests documented?|N/A|                                                                           |
 |Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software?|N/A|                                                                           |
@@ -100,7 +100,7 @@
 |Is your software released under an open source licence?|3| Yes                                                                       |
 |Is your software released under an OSI-approved open-source licence?|3| Yes                                                                       |
 |Does each of your source code files include a licence header?|3| Yes                                                                       |
-|Do you have a recommended citation for your software?|3| Yes  [here] ( https://github.com/AtharvaGole/XpensAuditor/blob/main/CITATION.cff)          |
+|Do you have a recommended citation for your software?|3| Yes  [here]( https://github.com/AtharvaGole/XpensAuditor/blob/main/CITATION.cff)          |
 |Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)?|3| Yes  [here]( https://github.com/AtharvaGole/XpensAuditor)                               |
 |Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed?|N/A||
 |Do you make timely announcements of the deprecation of components, APIs, etc.?|N/A||

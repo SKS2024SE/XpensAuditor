@@ -1,11 +1,9 @@
 package com.xa.xpensauditor;
 
-
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.Espresso.pressBack;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
-import static androidx.test.espresso.action.ViewActions.pressImeActionButton;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -39,10 +37,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.security.acl.Group;
+
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class AddTransactionActivityTest {
 
+public class CreateGroupActivityTest {
     @Rule
     public ActivityScenarioRule<LoginActivity> mActivityScenarioRule =
             new ActivityScenarioRule<>(LoginActivity.class);
@@ -55,7 +55,6 @@ public class AddTransactionActivityTest {
             auth.signOut();
         }
     }
-
     public static void opendrawer(){
         ViewInteraction imageButton = onView(
                 allOf(withContentDescription("Open navigation drawer"),
@@ -131,13 +130,30 @@ public class AddTransactionActivityTest {
         imageView3.check(matches(isDisplayed()));
     }
 
-    public static void clickfab(){
+    public static void clickfabgl(){
         SystemClock.sleep(5000);
         ViewInteraction fabButton = onView(
-                allOf(withId(R.id.fab)));
+                allOf(withId(R.id.fabgl)));
         fabButton.perform(click());
         SystemClock.sleep(5000);
     }
+
+    public static void addgroup(){
+        ViewInteraction groupNameEditText = onView(
+                allOf(withId(R.id.groupName)));
+        groupNameEditText.perform(replaceText("newgroup: " + ((int)Math.random()*10000)), closeSoftKeyboard());
+        SystemClock.sleep(5000);
+
+        ViewInteraction groupMemberEditText = onView(
+                allOf(withId(R.id.emailIds)));
+        groupMemberEditText.perform(replaceText("drkanaki@ncsu.edu atharvagole5@gmail.com"), closeSoftKeyboard());
+        SystemClock.sleep(5000);
+
+        ViewInteraction inviteMemberButton = onView(
+                allOf(withId(R.id.btn_invite_member)));
+        inviteMemberButton.perform(click());
+    }
+
     public static void login(){
         SystemClock.sleep(5000);
 
@@ -177,44 +193,19 @@ public class AddTransactionActivityTest {
         SystemClock.sleep(5000);
     }
 
-    public static void addAmount(){
-        ViewInteraction appCompatEditText = onView(
-                allOf(withId(R.id.addTransAmt)));
-        appCompatEditText.perform(replaceText("234"), closeSoftKeyboard());
-        SystemClock.sleep(5000);
-        ViewInteraction appCompatEditText1 = onView(
-                allOf(withId(R.id.addShopName)));
-        appCompatEditText1.perform(replaceText("Walmart"), closeSoftKeyboard());
-    }
-
-    public static void addCategory(){
-        ViewInteraction addCategory = onView(
-                allOf(withId(R.id.textViewCategory)));
-        addCategory.perform(click());
-        SystemClock.sleep(5000);
-        ViewInteraction selectcategory = onView(
-                allOf(withText("Education")));
-        selectcategory.check(matches(isDisplayed()));
-        selectcategory.perform(click());
-        SystemClock.sleep(5000);
-
-        ViewInteraction pressbutton = onView(
-                allOf(withId(R.id.btAddTransaction)));
-        pressbutton.perform(click());
-        SystemClock.sleep(5000);
-        pressBack();
-        SystemClock.sleep(5000);
-    }
-
     @Test
-    public void addTransactionActivityTest() {
+    public void createGroupActivityTest() {
         login();
-        clickfab();
-        addAmount();
-        addCategory();
-        signout();
-    }
+        opendrawer();
+        selectgroup();
+        clickfabgl();
+        addgroup();
 
+        pressBack();
+        pressBack();
+        pressBack();
+        GroupListActivityTest.signout();
+    }
     private static Matcher<View> childAtPosition(
             final Matcher<View> parentMatcher, final int position) {
 
@@ -234,3 +225,4 @@ public class AddTransactionActivityTest {
         };
     }
 }
+

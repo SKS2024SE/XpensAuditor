@@ -55,7 +55,7 @@ You can see a list of the paid plans at Firebase below - https://firebase.google
 
 ## License
 
- This project is licensed under the MIT License. See the [LICENSE](https://github.com/SaiPavanYalla/XpensAuditor/blob/main/LICENSE) file for details
+ This project is licensed under the MIT License. See the [LICENSE](https://github.com/AtharvaGole/XpensAuditor/blob/main/LICENSE) file for details
  
 ## Tools used
 

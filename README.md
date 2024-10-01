@@ -1,16 +1,16 @@
 # TRACK UR TAB
 a smart way to track your expenses
 
-[![Code Coverage](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main/graphs/badge.svg)](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main)
+[![Code Coverage](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main/graphs/badge.svg)](https://codecov.io/gh/SKS2024SE/XpensAuditor/branch/main)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7402784.svg)](https://doi.org/10.5281/zenodo.7402784)
-[![Collaborators](https://img.shields.io/badge/Collaborators-10-orange.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/graphs/contributors)
-[![License](https://img.shields.io/badge/License-MIT-purple.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/blob/main/LICENSE)
-[![Language](https://img.shields.io/badge/Language-Java-blue.svg?style=flat)](https://github.com/AtharvaGole/XpensAuditor/search?l=java)
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/AtharvaGole/XpensAuditor/blob/main/README.md)
-[![GitHub Release](https://img.shields.io/github/release/AtharvaGole/XpensAuditor.svg)](https://github.com/AtharvaGole/XpensAuditor/releases)
-[![Open Issues](https://img.shields.io/github/issues/AtharvaGole/XpensAuditor)](https://github.com/AtharvaGole/XpensAuditor/issues)
-[![Build-And-Test](https://github.com/AtharvaGole/XpensAuditor/actions/workflows/android.yml/badge.svg)](https://github.com/AtharvaGole/XpensAuditor/actions/workflows/android.yml)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/AtharvaGole/XpensAuditor.svg)](https://img.shields.io/github/repo-size/AtharvaGole/XpensAuditor.svg)
+[![Collaborators](https://img.shields.io/badge/Collaborators-10-orange.svg?style=flat)](https://github.com/SKS2024SE/XpensAuditor/graphs/contributors)
+[![License](https://img.shields.io/badge/License-MIT-purple.svg?style=flat)](https://github.com/SKS2024SE/XpensAuditor/blob/main/LICENSE)
+[![Language](https://img.shields.io/badge/Language-Java-blue.svg?style=flat)](https://github.com/SKS2024SE/XpensAuditor/search?l=java)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/SKS2024SE/XpensAuditor/blob/main/README.md)
+[![GitHub Release](https://img.shields.io/github/release/AtharvaGole/XpensAuditor.svg)](https://github.com/SKS2024SE/XpensAuditor/releases)
+[![Open Issues](https://img.shields.io/github/issues/AtharvaGole/XpensAuditor)](https://github.com/SKS2024SE/XpensAuditor/issues)
+[![Build-And-Test](https://github.com/AtharvaGole/XpensAuditor/actions/workflows/android.yml/badge.svg)](https://github.com/SKS2024SE/XpensAuditor/actions/workflows/android.yml)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/AtharvaGole/XpensAuditor.svg)](https://img.shields.io/github/repo-size/SKS2024SE/XpensAuditor.svg)
 
 #
 
@@ -48,6 +48,7 @@ a smart way to track your expenses
  - Ability to get diagnostics on a single click via a Chat bot.  
  - Ability to detect Printed and Digital bills automatically using OCR to classify things bought
  - Ability to assign the things identified from the previous step to the respective owners in group calculations
+
 ## Demo
 
 [Link to Demo Video](https://drive.google.com/file/d/1uOYYxBSlLLNwlBKz2-shEShyU4YVj-L6/view?usp=sharing)

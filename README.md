@@ -1,4 +1,4 @@
-# XpensAuditor
+# TRACK UR TAB
 a smart way to track your expenses
 
 [![Code Coverage](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main/graphs/badge.svg)](https://codecov.io/gh/AtharvaGole/XpensAuditor/branch/main)
@@ -25,7 +25,7 @@ a smart way to track your expenses
  - Profile set up module is where user can update their details 
  - Account Settings are available to change password, send password reset email
  
- ## New Features
+ ## Project1 Enhancement Features
  
  - Ability to create Groups and track Group expenses
   ![Page4](https://user-images.githubusercontent.com/44353511/205784651-950673a8-49c8-47e9-bbe8-96546964af48.png)
@@ -41,7 +41,13 @@ a smart way to track your expenses
   ![Page2](https://user-images.githubusercontent.com/44353511/205784340-ad0c2668-3fbc-4aa5-9f15-4e06563987cb.png)
  - UI refresh
  
+## Track-Ur-Tab Features 
 
+ - Ability to split expenses in group propotionally
+ - Ability to calculate credit-debit of group expenses ( Who owes what )
+ - Ability to get diagnostics on a single click via a Chat bot.  
+ - Ability to detect Printed and Digital bills automatically using OCR to classify things bought
+ - Ability to assign the things identified from the previous step to the respective owners in group calculations
 ## Demo
 
 [Link to Demo Video](https://drive.google.com/file/d/1uOYYxBSlLLNwlBKz2-shEShyU4YVj-L6/view?usp=sharing)

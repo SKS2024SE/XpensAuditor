@@ -101,16 +101,7 @@ https://www.notion.so/525c9918752e452cade1c9773fb22a02?v=bbac6938b19a42798e6a6f7
 This repository is made for CSC 510 Software Engineering Course:
 
 Members
- - Atharva Gole
- - Arnab Datta
- - Vishal Sharma
- - Dhanya Dasari
- - Dakshil Kanakia
-
-Previous Contributors
- - Sahithi Ammana
- - Mithila Reddy Tatigotla
- - Sunandini Medisetti
- - Sai Pavan Yalla
- - Vineeth Dasi
+ - Krithika Swaminathan ( kswamin3@ncsu.edu )
+ - Sandhiya Shunmugavel ( sshunmu2@ncsu.edu )
+ - Sanjaey Shunmuga Sundaram ( sshunmu@ncsu.edu )
 
